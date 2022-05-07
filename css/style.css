@@ -22,13 +22,11 @@ a {
 @media only screen and (max-width: 768px) {
   body .wrapper {
     height: 4559px;
-    border: 1px solid;
     margin: 65px 30px 90px 29px;
     position: relative;
   }
   body .wrapper header {
     height: 843px;
-    border: 1px solid;
   }
   body .wrapper header .container {
     height: 688px;
@@ -46,7 +44,6 @@ a {
   }
   body .wrapper header .container .navigation {
     height: 104px;
-    border: 1px solid;
     position: relative;
   }
   body .wrapper header .container .navigation .nav__title {
@@ -84,7 +81,6 @@ a {
   }
   body .wrapper header .container .description {
     height: 44px;
-    border: 1px solid;
   }
   body .wrapper header .container .description .description__text {
     width: 156px;

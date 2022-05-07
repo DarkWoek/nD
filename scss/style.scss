@@ -52,12 +52,10 @@ $sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
     body{
         .wrapper{
             height: 4559px;
-            border: 1px solid;
             margin: 65px 30px 90px 29px;
             position: relative;
             header{
                 height: 843px;
-                border: 1px solid;
                 .container{
                     height: 688px;
                     display: flex;
@@ -66,7 +64,6 @@ $sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
                     border: 1px solid;
                     .navigation{
                         height: 104px;
-                        border: 1px solid;
                         position: relative;
                         .nav__title{
                             width: 124px;
@@ -95,7 +92,6 @@ $sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
                     }
                     .description{
                         height: 44px;
-                        border: 1px solid;
                         .description__text{
                             width: 156px;
                             height: 44px;
