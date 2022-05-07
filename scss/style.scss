@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500;700&family=Poppins:wght@500;700&family=Roboto:wght@400;500&display=swap');
+$color-black:#070707;
+$color-primary:#000000;
+$color-background:#f6f6f6;
+$color-white:#ffffff;
+$color-grey:#828282;
+$fz:14px;
+$fw:400;
+$lh:22px;
+@mixin media($minmax, $media) {
+    @each $size, $resolution in $sizes {
+      @if $media == $size {
+        @media only screen and (#{$minmax}-width: $resolution) {
+          @content;
+        }
+      }
+    }
+}
+@mixin text($font-size,$lineH){
+    font-size: $font-size;
+    line-height: $lineH;
+}
+@mixin title($font-size,$lineH,$color) {
+    font-size: $font-size;
+    line-height: $lineH;
+    color: $color;
+}
+body{
+    font-family: 'Akshar';
+    font-size: $fz;
+    max-width: 1445px;
+    max-height: 4759px;
+    border: 1px solid;
+    background-color: #ffffff;
+    .wrapper{
+        max-width: 943px;
+        max-width: 4549px;
+        border: 1px solid;
+        margin: 0 auto;
+    }
+}
+a{
+    color: $color-grey;
+    text-decoration: none;
+}
+$sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
+
+
+
+
+@include media("max","md"){
+    body{
+        .wrapper{
+            height: 4559px;
+            border: 1px solid;
+            margin: 65px 30px 90px 29px;
+            position: relative;
+            header{
+                height: 843px;
+                border: 1px solid;
+                .container{
+                    height: 688px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    border: 1px solid;
+                    .navigation{
+                        height: 104px;
+                        border: 1px solid;
+                        position: relative;
+                        .nav__title{
+                            width: 124px;
+                            height: 104px;
+                            @include title(47px,58px,$color-primary);
+                            position: relative;
+                            top: -10px;
+                        }
+                        .language__changer{
+                            width: 105px;
+                            height: 30px;
+                            position: relative;
+                            top: 183px;
+                            left: 241px;
+                            transform: rotate(90deg);
+                            display: flex;
+                            justify-content: space-between;
+                            @include title(34px,22px,$color-grey);
+                            .border{
+                                width: 4px;
+                                height: 28px;
+                                position: relative;
+                                top: 3px;
+                                background-color: $color-black;
+                            }
+                        }
+                    }
+                    .description{
+                        height: 44px;
+                        border: 1px solid;
+                        .description__text{
+                            width: 156px;
+                            height: 44px;
+                            position: relative;
+                            top: -3px;
+                            z-index: -1;
+                            @include text(18px, 22px);
+                        }
+                    }
+                    .picture{
+                        height: 478px;
+                    }
+                }
+            }
+            main{
+                height: 3030px;
+                border: 1px solid;
+                .first__section{
+                    height: 491px;
+                    border: 1px solid;
+                    background-color: $color-background;
+                    padding-top: 81px;
+                    .section__about{
+                        height: 334px;
+                        border: 1px solid;
+                        text-align: center;
+                    }
+                }
+                .middle__section{
+                    height: 1421px;
+                    border: 1px solid ;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    background-color: $color-white;
+                    .middle__section-wrapper{
+                        width:228px;
+                        height: 1240px;
+                        border: 1px solid;
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                    }
+                }
+                .last__section{
+                    height: 1118px;
+                    background-color:$color-background;
+                    .last__section-container{
+                        height: 956px;
+                        border: 1px solid;
+                        position: relative;
+                        top: 81px;
+                    }
+                }
+            }
+            footer{
+                height: 569px;
+                border: 1px solid;
+                .footer__container{
+                    position: relative;
+                    top: 81px;
+                }
+            }
+        }
+    }
+}
