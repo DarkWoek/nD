@@ -79,17 +79,16 @@ $sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
                             width: 105px;
                             height: 30px;
                             position: relative;
-                            top: 183px;
-                            left: 241px;
+                            left: 77.6%;
                             transform: rotate(90deg);
                             display: flex;
                             justify-content: space-between;
                             @include title(34px,22px,$color-grey);
                             .border{
                                 width: 4px;
-                                height: 28px;
+                                height: 30px;
                                 position: relative;
-                                top: 3px;
+                                bottom: 2px;
                                 background-color: $color-black;
                             }
                         }

@@ -62,8 +62,7 @@ a {
     width: 105px;
     height: 30px;
     position: relative;
-    top: 183px;
-    left: 241px;
+    left: 77.6%;
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     display: -webkit-box;
@@ -78,9 +77,9 @@ a {
   }
   body .wrapper header .container .navigation .language__changer .border {
     width: 4px;
-    height: 28px;
+    height: 30px;
     position: relative;
-    top: 3px;
+    bottom: 2px;
     background-color: #070707;
   }
   body .wrapper header .container .description {
