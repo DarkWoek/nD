@@ -76,6 +76,10 @@ body .wrapper {
     bottom: 2px;
     background-color: #070707;
   }
+  body .wrapper header .container .navigation .language__changer a {
+    color: #828282;
+    text-decoration: none;
+  }
   body .wrapper header .container .description {
     height: 44px;
   }
