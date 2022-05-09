@@ -9,7 +9,7 @@ body {
 }
 body .wrapper {
   max-width: 943px;
-  max-width: 4549px;
+  max-height: 4549px;
   border: 1px solid;
   margin: 0 auto;
 }
@@ -73,7 +73,7 @@ a {
     color: #828282;
   }
   body .wrapper header .container .navigation .language__changer .border {
-    width: 4px;
+    width: 5px;
     height: 30px;
     position: relative;
     bottom: 2px;
@@ -90,6 +90,7 @@ a {
     z-index: -1;
     font-size: 18px;
     line-height: 22px;
+    color: #000000;
   }
   body .wrapper header .container .picture {
     height: 478px;
@@ -100,18 +101,16 @@ a {
   }
   body .wrapper main .first__section {
     height: 491px;
-    border: 1px solid;
     background-color: #f6f6f6;
     padding-top: 81px;
   }
   body .wrapper main .first__section .section__about {
     height: 334px;
-    border: 1px solid;
     text-align: center;
   }
-  body .wrapper main .middle__section {
-    height: 1421px;
-    border: 1px solid;
+  body .wrapper main .first__section .section__about .text__about {
+    height: 261px;
+    padding: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -119,9 +118,32 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 18px;
+    line-height: 21.83px;
+    color: #000000;
+    position: relative;
+    top: 29px;
+  }
+  body .wrapper main .first__section .section__about h3 {
+    font-size: 34px;
+    line-height: 42px;
+    color: #000000;
+  }
+  body .wrapper main .middle__section {
+    height: 1421px;
+    border: 1px solid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: #ffffff;
   }
   body .wrapper main .middle__section .middle__section-wrapper {
