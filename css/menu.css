@@ -80,13 +80,15 @@
     left: 0;
   }
   #menu-toggle:checked ~ .menu-btn{
-    position: fixed;
+    position: absolute;
     top: 11.5%;
-    right: 10%;
+    right: 0;
   }
 
-
-
+.menu-item{
+  color: #828282;
+  text-decoration: none;
+}
   .rating-result span {
     color: lightgrey;
     border: 1px;
