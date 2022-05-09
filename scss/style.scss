@@ -66,7 +66,6 @@ $sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
-                    border: 1px solid;
                     .navigation{
                         height: 104px;
                         position: relative;
@@ -113,7 +112,6 @@ $sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
             }
             main{
                 height: 3030px;
-                border: 1px solid;
                 .first__section{
                     height: 491px;
                     background-color: $color-background;
@@ -207,9 +205,7 @@ $sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
             }
             footer{
                 height: 569px;
-                border: 1px solid;
                 .footer__container{
-                    border: 1px solid;
                     height: 398px;
                     position: relative;
                     top: 81px;
@@ -236,7 +232,6 @@ $sizes: ("xs":320px, "sm":576px, "md":768px, "lg":992px, "xl":1200px);
                     .icons{
                         width: 100% ;
                         height: 41px;
-                        border: 1px solid;
                         @include flex(flex,center,space-between,row);
                     }
                     .footer__text{
