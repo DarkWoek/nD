@@ -77,11 +77,28 @@
   }
   #menu-toggle:checked ~ .menubox{
     visibility: visible;
-    left: 0;x
+    left: 0;
   }
   #menu-toggle:checked ~ .menu-btn{
     position: fixed;
     top: 11.5%;
     right: 10%;
+  }
+
+
+
+  .rating-result span {
+    color: lightgrey;
+    border: 1px;
+    font-size: 27px;
+  }
+  .rating-result > span:before {
+    content: '★';
+    width: 26px;
+    height: 26px;
+  }
+  .rating-result > span.active {
+    color: rgb(0, 0, 0);
+
   }
 }
